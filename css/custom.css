@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+/* common css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arvo", serif;
+}
+
+/* header */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* home */
+#home {
+  width: 100%;
+  min-height: 103vh;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  min-height: 95vh;
+  top: 0;
+  left: 0;
+  background-color: rgb(40, 115, 225);
+  /* background-color: #000; */
+}
+
+#name {
+  margin-top: 16rem;
+  font-size: 4rem;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+#tagline {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+#learn-more{
+  padding: .4rem 1rem;
+  max-width: 10rem;
+  color: #fff;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+#learn-more:hover{
+  text-decoration: none;
+}
+
+/* resume */
+#resume{
+  width: 100%;
+  height: auto;
+  padding: 4rem 0;
+}
+
+#resume .card{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resume .card img{
+  height: 160px;
+}
+
+/* portfolio */
+#portfolio {
+  width: 100%;
+  height: auto;
+  padding: 4rem 0;
+}
+
+#portfolio img {
+  margin-top: 30px;
+  width: 100%;
+  height: 220px;
+}
+
+#portfolio .grid {
+  position: relative;
+  width: 100%;
+}
+
+#portfolio .grid .overlay {
+  position: absolute;
+  margin-top: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgb(40, 115, 225);
+  /* background: #527cec; */
+}
+
+#portfolio .grid:hover .overlay {
+  opacity: .75;
+}
+
+.text {
+  color: #ffff;
+  font-size: 1.7rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* contact */
+#contact {
+  width: 100%;
+  height: 80vh;
+  padding: 4rem 0;
+}
+
+#contact form {
+  width: 100%;
+}
+
+#contact form input,
+#contact form textarea{
+  background: #e8edfc;
+}
+
+#contact form .submit-message {
+  margin-left: 15px;
+  margin-right: 15px;
+  background: rgb(40, 115, 225);
+  color: #ffff;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 2rem 0 4rem;
+  background: #e8edfc;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer .back-to-top {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #3333;
+}
+
+footer .back-to-top:hover {
+
+  text-decoration: none;
+  color: rgb(40, 115, 225);
+}
+
+footer ul#social {
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+}
+
+footer ul#social li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+footer ul#social a {
+  text-decoration: none;
+  color: #3333;
+  font-size: 2rem;
+}
+
+footer ul#social a:hover {
+  text-decoration: none;
+  color: rgb(40, 115, 225);
+}
+
+footer p {
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  color: #555;
+  text-align: center;
+}
